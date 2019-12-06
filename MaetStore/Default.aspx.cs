@@ -13,5 +13,12 @@ namespace MaetStore
         {
 
         }
+
+        protected void Login(object sender, EventArgs e)
+        {
+            Response.Redirect("~/Login.aspx");
+            
+           
+        }
     }
 }
